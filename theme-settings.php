@@ -1,10 +1,4 @@
 <?php
-
-/**
- * @file
- * Theme setting callbacks for the garland theme.
- */
-
 /**
  * Implements hook_form_FORM_ID_alter().
  *
