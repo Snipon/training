@@ -34,10 +34,6 @@
     </div>
   <?php endif; ?>
 
-  <?php if ($breadcrumb): ?>
-    <div id="breadcrumb"><?php print $breadcrumb; ?></div>
-  <?php endif; ?>
-
   <?php if(!empty($messages)): ?>
     <div class="console">  
       <?php print $messages; ?>
