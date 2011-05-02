@@ -5,6 +5,7 @@ screenshot = screenshot.png
 engine = phptemplate
 ;base theme = zen
 
+stylesheets[all][] = styles/base.css
 stylesheets[all][] = styles/style.css
 
 ;scripts[] = js/script.js

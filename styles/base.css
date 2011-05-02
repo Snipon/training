@@ -1,0 +1,206 @@
+/**
+ * General
+ */
+body {
+  font-family: Georgia;
+}
+ 
+#page {
+  width: 960px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background: #EEE;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgb(238,238,238)),
+    color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+    center top,
+    rgb(238,238,238) 0%,
+    rgb(255,255,255) 100%
+  );
+}
+
+#header .section,
+#footer .section {
+  padding: 10px;
+}
+
+/**
+ * General typo
+ */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Arial;
+  color: #666;
+  margin: 0 0 5px 0;
+}
+
+.title a {
+  color: #666;
+}
+
+p {
+  margin: 0 0 10px 0;
+}
+
+a {
+  color: #964161;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/**
+ * Header
+ */
+#site-logo, 
+#site-name {
+  float: left;
+}
+
+#site-logo {
+  margin-right: 10px;
+}
+
+#site-name h1 {
+  margin: 40px 0 0;
+  font-size: 50px;
+  line-height: 50px;
+  font-family: "Comic sans MS";
+}
+
+#site-name h1 a {
+  text-decoration: none;
+  color: #FFF;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+}
+
+/**
+ * Navigation
+ */
+#navigation .section {
+  background: #DDD;
+  overflow: hidden;
+}
+
+#navigation ul.menu {
+  float: left;
+} 
+
+#navigation li {
+  font-family: Arial;
+  float: left;
+  margin: 1px 1px 0 0;
+  padding: 0;
+}
+
+#navigation li a {
+  background: #EEE;
+  text-decoration: none;
+  padding: 2px 5px;
+  float: left;
+  display: block;
+  color: #000;
+}
+
+#navigation li.active a {
+  background: #FFF;
+}
+
+#navigation li.active a:hover {
+  background: #FFF;
+}
+
+#navigation li a:hover {
+  background: #CCC;
+}
+
+/**
+ * Tabs
+ */
+.tabs a {
+  color: #000;
+  font-size: 12px;
+}
+
+/**
+ * Content
+ */
+#content .section {
+  background: #FFF;
+}
+
+#content #page-title,
+#content .block {
+  padding: 10px;
+}
+
+/**
+ * Sidebar
+ */
+body.one-sidebar #content {
+  width: 700px;
+  float: left;
+}
+
+body.one-sidebar #sidebar {
+  width: 260px;
+  float: left;
+}
+
+#sidebar .section {
+  background: #EEE;
+}
+
+/**
+ * Blocks
+ */
+#sidebar .block {
+  padding: 10px;
+} 
+
+.block.red {
+  background: rgba(255,0,0,0.2)
+}
+
+.block.blue {
+  background: rgba(0, 0, 255, 0.2);
+}
+
+.block.yellow {
+  background: rgba(255,255,0,0.2)
+}
+
+/**
+ * Content list
+ */
+.page-content .view-nodelist .views-row {
+  border-bottom: 1px solid #EEE;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.page-content .view-nodelist .views-row .type {
+  color: #AAA;
+}
+
+/**
+ * Make happy
+ */
+body.happy {
+  background: url(../images/dancing-cat.gif);
+  background-size: 100%;
+}
+
+body.happy #page {
+  opacity: 0.5;
+}
