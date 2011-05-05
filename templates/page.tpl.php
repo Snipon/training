@@ -73,10 +73,10 @@
         </div>
       </div>
 
-      <?php if ($page['sidebar_first']): ?>
+      <?php if ($page['sidebar_second']): ?>
         <div id="sidebar" class="column sidebar">
           <div class="section">
-            <?php print render($page['sidebar_first']); ?>
+            <?php print render($page['sidebar_second']); ?>
           </div>
         </div>
       <?php endif; ?>
